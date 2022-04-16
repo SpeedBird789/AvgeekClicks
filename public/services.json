@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "name": "Emirates Spotting",
+        "price": "410",
+        "description": "Full day spotting of this Dubai based aviation giant. Flexible spotting location.",
+        "img": "https://i.ibb.co/tx6ZhXC/ek.png"
+    },
+
+    {
+        "id": 2,
+        "name": "Turkish Airlines Spotting",
+        "price": "390",
+        "description": "Full day spotting of this Istanbul based aviation giant. Flexible spotting location.",
+        "img": "https://i.ibb.co/ByTHtZz/tk.png"
+    },
+
+    {
+        "id": 3,
+        "name": "Qatar Airways Spotting",
+        "price": "435",
+        "description": "Full day spotting of this Doha based aviation giant. Flexible spotting location.",
+        "img": "https://i.ibb.co/0tB5DBP/qr.png"
+        
+    }
+]
