@@ -6,3 +6,8 @@
     padding-left: 5px;
     padding-right: 5px;
 }
+
+.service img{
+    height: 260px;
+    border-radius: 5px;
+}
