@@ -12,7 +12,7 @@ const works = [
 
 const Works = () => {
     return (
-        <div className='container'>
+        <div id='exampleworks' className='container'>
             <h2 className='text-primary text-center mt-5'>Example Works</h2>
             <div className='row'>
                 {
