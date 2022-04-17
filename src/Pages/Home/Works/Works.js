@@ -13,7 +13,7 @@ const works = [
 const Works = () => {
     return (
         <div className='container'>
-            <h2 className='text-primary text-center'>Example Works</h2>
+            <h2 className='text-primary text-center mt-5'>Example Works</h2>
             <div className='row'>
                 {
                     works.map(work => <Work key={work.id} work={work}></Work>)
