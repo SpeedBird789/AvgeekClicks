@@ -41,7 +41,7 @@ const Register = () => {
     }
 
     return (
-        <div className='register-form'>
+        <div style={{minHeight: '63vh'}} className='register-form'>
             <h2 className='text-center text-info mt-4'>Please Register</h2>
 
             <form onSubmit={handleRegister}>
@@ -58,7 +58,7 @@ const Register = () => {
                 <input disabled={!agree} className='w-50 mx-auto btn btn-primary mt-3' type="submit" value="Register" />
             </form>
             <p>Already have an account? <Link to="/login" className='text-primary pe-auto text-decoration-none' onClick={navigateLogin}>Login</Link></p>
-            <SocialLogin></SocialLogin>
+           
         </div>
     );
 };

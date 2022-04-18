@@ -4,25 +4,25 @@ const Footer = () => {
 
     return (
 
-        <div class="mt-5 ">
-            <footer class="bg-dark text-center text-white">
-                <div class="container p-4 pb-0">
-                    <section class="">
+        <div className="mt-5">
+            <footer className="bg-dark text-center text-white">
+                <div className="container p-4 pb-0">
+                    <section className="">
                         <form action="">
-                            <div class="row d-flex justify-content-center">
-                                <div class="col-auto">
-                                    <p class="pt-2">
+                            <div className="row d-flex justify-content-center">
+                                <div className="col-auto">
+                                    <p className="pt-2">
                                         <strong>Sign up for our newsletter</strong>
                                     </p>
                                 </div>
-                                <div class="col-md-5 col-12">
-                                    <div class="form-outline form-white mb-4">
-                                        <input type="email" id="form5Example2" class="form-control" />
-                                        <label class="form-label" for="form5Example2">Email address</label>
+                                <div className="col-md-5 col-12">
+                                    <div className="form-outline form-white mb-4">
+                                        <input type="email" id="form5Example2" className="form-control" />
+                                        <label className="form-label" for="form5Example2">Email address</label>
                                     </div>
                                 </div>
-                                <div class="col-auto">
-                                    <button type="submit" class="btn btn-outline-light mb-4">
+                                <div className="col-auto">
+                                    <button type="submit" className="btn btn-outline-light mb-4">
                                         Subscribe
                                     </button>
                                 </div>
@@ -33,9 +33,9 @@ const Footer = () => {
                 </div>
 
 
-                <div class="text-center p-3" style={{bg: "rgba(0, 0, 0, 0.2)"}}>
+                <div className="text-center p-3" style={{bg: "rgba(0, 0, 0, 0.2)"}}>
                     © 2022 Copyright:
-                    <a class="text-white text-decoration-none"> AvgeekClicks.com</a>
+                    <a className="text-white text-decoration-none"> AvgeekClicks.com</a>
                 </div>
 
             </footer>

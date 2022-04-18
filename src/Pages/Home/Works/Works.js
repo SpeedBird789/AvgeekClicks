@@ -13,7 +13,7 @@ const works = [
     {id: 3, name: 'Arabian Luxury', img: gulf},
     {id: 4, name: 'British Queen', img: BA},
     {id: 5, name: 'Aesthetic ANA', img: ANA},
-    {id: 5, name: 'Spirit Of Australia', img: Qantas},
+    {id: 6, name: 'Spirit Of Australia', img: Qantas},
 ]
 
 const Works = () => {
