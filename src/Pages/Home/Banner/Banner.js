@@ -1,9 +1,10 @@
 import React, { useState } from 'react';
 import { Carousel } from 'react-bootstrap';
 
-import finn from '../../../images//banner/finn.jpg';
-import qantas from '../../../images//banner/qantas.jpg';
+import KLM from '../../../images//banner/KLM.jpg';
 import etihad from '../../../images//banner/etihad.jpg';
+import lufthansa from '../../../images//banner/lufthansa.jpg';
+
 
 const Banner = () => {
     const [index, setIndex] = useState(0);
@@ -20,33 +21,33 @@ const Banner = () => {
           alt="First slide"
         />
         <Carousel.Caption>
-          <h3>Etihad</h3>
+          <h3>Etihad B789</h3>
           <p>From Abu Dhabi To The World</p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src={finn}
+          src={lufthansa}
           alt="Second slide"
         />
 
         <Carousel.Caption>
-          <h3>FinnAir</h3>
-          <p>The Nordic Way</p>
+          <h3>Lufthansa A359</h3>
+          <p>Say yes to the world</p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src={qantas}
+          src={KLM}
           alt="Third slide"
         />
 
         <Carousel.Caption>
-          <h3>Qantas</h3>
+          <h3>KLM B772</h3>
           <p>
-            Spirit Of Australia
+          The Flying Dutchman
           </p>
         </Carousel.Caption>
       </Carousel.Item>

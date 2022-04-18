@@ -1,12 +1,47 @@
 import React from 'react';
 
 const Footer = () => {
-    const today = new Date();
-    const year = today.getFullYear();
+
     return (
-        <footer className='text-center mt-5'>
-           <p><small> All Rights Reserved © {year} </small></p>
-        </footer>
+
+        <div class="mt-5 ">
+            <footer class="bg-dark text-center text-white">
+                <div class="container p-4 pb-0">
+                    <section class="">
+                        <form action="">
+                            <div class="row d-flex justify-content-center">
+                                <div class="col-auto">
+                                    <p class="pt-2">
+                                        <strong>Sign up for our newsletter</strong>
+                                    </p>
+                                </div>
+                                <div class="col-md-5 col-12">
+                                    <div class="form-outline form-white mb-4">
+                                        <input type="email" id="form5Example2" class="form-control" />
+                                        <label class="form-label" for="form5Example2">Email address</label>
+                                    </div>
+                                </div>
+                                <div class="col-auto">
+                                    <button type="submit" class="btn btn-outline-light mb-4">
+                                        Subscribe
+                                    </button>
+                                </div>
+                            </div>
+                        </form>
+                    </section>
+
+                </div>
+
+
+                <div class="text-center p-3" style={{bg: "rgba(0, 0, 0, 0.2)"}}>
+                    © 2022 Copyright:
+                    <a class="text-white text-decoration-none"> AvgeekClicks.com</a>
+                </div>
+
+            </footer>
+
+        </div>
+
     );
 };
 
