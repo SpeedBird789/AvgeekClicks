@@ -10,7 +10,7 @@ In this project, I tried to make a website for a Plane Spotter (learn more about
 * About section is a short introduction of me; nothing too complicated yet :)
 * Banner shows 3 of the many shots that this amazing spotter has to his collection.
 * Blogs section displays 3 web-dev related questions and their answers. This however is just for my practice and isn't necessarily related to this project.
-* Example works shows some of the latest clicks the spotter has taken from around the globe, acting as a portfolio.
+* Example works section shows some of the latest clicks the spotter has taken from around the globe, acting as a portfolio.
 
 ## Some of the tools used in this project are:
 1) React Router
@@ -20,4 +20,5 @@ In this project, I tried to make a website for a Plane Spotter (learn more about
 5) Firebase for authentication and deployment
 etc
 
+## Enjoy :)
 
