@@ -1,10 +1,13 @@
 import React from 'react';
+import PageTitle from '../../Shared/PageTitle/PageTitle';
 import './Work.css';
 
 const Work = ({ work }) => {
     const { name, img } = work;
     return (
         <div className='gx-5 gy-3 col-sm-12 col-md-6 col-lg-4'>
+
+            <PageTitle title='Example Works'></PageTitle>
             <div className="card" style={{ width: "26rem", height: "350px"}}>
                 <img src={img} className="card-img-top" alt="..." />
                 <div className="card-body">

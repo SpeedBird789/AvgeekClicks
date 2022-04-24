@@ -5,6 +5,7 @@ import './Register.css';
 import auth from '../../../firebase.init';
 import SocialLogin from '../SocialLogin/SocialLogin';
 import Loading from '../../Shared/Loading/Loading';
+import PageTitle from '../../Shared/PageTitle/PageTitle';
 
 const Register = () => {
     const [agree, setAgree] = useState(false);
@@ -42,6 +43,9 @@ const Register = () => {
 
     return (
         <div style={{minHeight: '63vh'}} className='register-form'>
+
+            <PageTitle title='Register'></PageTitle>
+            
             <h2 className='text-center text-info mt-4'>Please Register</h2>
 
             <form onSubmit={handleRegister}>

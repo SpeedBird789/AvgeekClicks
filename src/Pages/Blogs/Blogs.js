@@ -1,8 +1,11 @@
 import React from 'react';
+import PageTitle from '../Shared/PageTitle/PageTitle';
 
 const Blogs = () => {
     return (
         <div className='container mt-4 rounded'>
+
+            <PageTitle title='Blogs'></PageTitle>
             <div> 
                 <h2>What is the difference between authorization and authentication? </h2>
                 <h6>- Authentication is the process of verifying who someone is, whereas authorization is the process of verifying what specific applications, files, and data a user has access to. For example, The lock on a door only grants access to someone with the correct key in much the same way that a system only grants access to users who have the correct credentials. Once inside, the person has the authorisation to access the kitchen and open the cupboard that holds the pet food. The person may not have permission to go into the bedroom for a quick nap. Authentication works through passwords, one-time pins, biometric information, and other information provided or entered by the Suser whereas authorization works through settings that are implemented and maintained by the organization. Authentication is visible to and partially changeable by the user however authorization isn’t.</h6>

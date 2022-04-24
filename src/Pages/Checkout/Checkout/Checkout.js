@@ -1,9 +1,11 @@
 import React from 'react';
+import PageTitle from '../../Shared/PageTitle/PageTitle';
 
 const Checkout = () => {
     return (
         <div style={{minHeight: '63vh'}}>
-            <h2 className='text-center mt-4'>Your booking is confirmed. <br /> Check your email for confirmation. <br />Thanks for using AvgeekClicks.</h2>
+            <PageTitle title='Checkout'></PageTitle>
+            <h2 className='text-center mt-4'>Please check your booking out </h2>
         </div>
     );
 };
